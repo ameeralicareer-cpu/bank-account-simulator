@@ -3,7 +3,7 @@ A Python CLI program simulating basic bank account operations
 
 ## Project Description
 
-Bank Account Simulator ek simple Python project hai jo basic banking operations ko simulate karta hai. Is project mein different types ke bank accounts create kiye ja sakte hain aur un par deposit, withdraw aur account details display karne jaisi operations perform ki ja sakti hain.
+Bank Account Simulator is a simple Python project that simulates basic banking operations. In this project, you can create different types of bank accounts and perform operations on them such as deposit, withdraw, and displaying account details.
 
 ## Functionalities
 
@@ -13,36 +13,36 @@ This project includes the following features:
 * Create a **Current Account**
 * Deposit money into an account
 * Withdraw money from an account
-* Savings Account mein interest add karna
-* Current Account mein overdraft facility
-* Saare accounts ki details display karna
-* Accounts ka data JSON file mein save karna
-* Saved accounts ko JSON file se load karna
+* Add interest to a Savings Account
+* Overdraft facility for a Current Account
+* Display details of all accounts
+* Save account data to a JSON file
+* Load saved accounts from a JSON file
 * Menu-driven interface
 
 ## Account Types
 
 ### Savings Account
 
-Savings Account, `Account` class se inherit karta hai aur ismein interest rate ka feature bhi hai.
+The Savings Account inherits from the `Account` class and includes an interest rate feature.
 
 ### Current Account
 
-Current Account bhi `Account` class se inherit karta hai aur ismein limited overdraft facility available hai.
+The Current Account also inherits from the `Account` class and includes a limited overdraft facility.
 
 ## How to Run
 
-Project ko run karne ke liye VS Code ke terminal mein yeh command use karein:
+To run the project, use the following command in the VS Code terminal:
 
-```bash
+​```bash
 python bank_simulator.py
-```
+​```
 
-Program run hone ke baad menu show hoga jahan se different options select kiye ja sakte hain.
+Once the program runs, a menu will be displayed from where different options can be selected.
 
 ## What I Learned
 
-Is project ko banate waqt maine Python ke important concepts seekhe:
+While building this project, I learned several important Python concepts:
 
 * Python Classes and Objects
 * Constructors (`__init__`)
@@ -55,5 +55,5 @@ Is project ko banate waqt maine Python ke important concepts seekhe:
 * Reading and Writing Files
 * Working with Lists
 * Menu-driven Programs
-* `isinstance()` ka use
-* Data ko save aur load karna
+* Using `isinstance()`
+* Saving and loading data
